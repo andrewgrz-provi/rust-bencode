@@ -1,0 +1,13 @@
+[package]
+name = "rutie_ruby_example"
+version = "0.1.0"
+authors = ["Andrew Grzeszczak <andrew@provi.com>"]
+edition = "2018"
+
+
+[dependencies]
+rutie = "0.8.2"
+
+[lib]
+name = "rutie_ruby_example"
+crate-type = ["cdylib"]
